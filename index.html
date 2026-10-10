@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Página de fã dedicada a Satoru Gojo, o feiticeiro mais forte de Jujutsu Kaisen."
+    />
+    <title>Satoru Gojo — O mais forte</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <a class="brand" href="#inicio"><span>五条</span> GOJO</a>
+      <nav aria-label="Navegação principal">
+        <a href="#perfil">Perfil</a><a href="#tecnicas">Técnicas</a
+        ><a href="#dominio">Domínio</a><a href="#galeria">Galeria</a>
+      </nav>
+      <a class="nav-cta" href="#tecnicas">Conheça o infinito</a>
+    </header>
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-art" aria-hidden="true"></div>
+        <div class="energy energy--blue" aria-hidden="true"></div>
+        <div class="energy energy--red" aria-hidden="true"></div>
+        <div class="hero-content reveal">
+          <p class="eyebrow">JUJUTSU HIGH // FEITICEIRO DE CLASSE ESPECIAL</p>
+          <h1>O MAIS<br /><span>FORTE.</span></h1>
+          <p>
+            Entre o mundo e Satoru Gojo existe o Infinito. Herdeiro dos Seis
+            Olhos e da técnica Ilimitada, ele transformou sozinho o equilíbrio
+            do mundo jujutsu.
+          </p>
+          <div class="actions">
+            <a class="button button--light" href="#perfil">Entrar no domínio</a
+            ><a class="button button--glass" href="#tecnicas">Ver técnicas</a>
+          </div>
+        </div>
+        <div class="kanji" aria-hidden="true">無限</div>
+        <div class="scroll"><i></i> ROLE PARA DESCOBRIR</div>
+      </section>
+      <section class="profile section" id="perfil">
+        <div class="profile-title reveal">
+          <p class="eyebrow">SATORU GOJO</p>
+          <h2>Um nascimento que<br /><span>mudou o equilíbrio.</span></h2>
+        </div>
+        <div class="profile-grid">
+          <article class="fact reveal">
+            <small>01 / CLASSE</small><strong>Especial</strong>
+            <p>
+              Um dos raríssimos feiticeiros capazes de enfrentar ameaças de
+              nível extremo.
+            </p>
+          </article>
+          <article class="fact reveal">
+            <small>02 / HERANÇA</small><strong>Seis Olhos</strong>
+            <p>
+              Percepção sobrenatural da energia amaldiçoada com precisão
+              incomparável.
+            </p>
+          </article>
+          <article class="fact reveal">
+            <small>03 / TÉCNICA</small><strong>Ilimitado</strong>
+            <p>
+              Manipula o espaço no nível atômico e torna o contato praticamente
+              impossível.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="techniques section" id="tecnicas">
+        <div class="tech-head reveal">
+          <p class="eyebrow">TÉCNICA AMALDIÇOADA: ILIMITADO</p>
+          <h2>Escolha uma<br />manifestação.</h2>
+        </div>
+        <div class="tech-layout">
+          <div class="orb-stage reveal" id="orbStage">
+            <div class="orb orb--blue" id="orb"></div>
+            <span id="orbLabel">AZUL</span>
+          </div>
+          <div
+            class="tech-list reveal"
+            role="tablist"
+            aria-label="Técnicas de Gojo"
+          >
+            <button class="tech active" data-tech="blue" role="tab">
+              <b>01</b
+              ><span
+                ><strong>Azul</strong
+                ><small>Amplificação que cria atração.</small></span
+              ></button
+            ><button class="tech" data-tech="red" role="tab">
+              <b>02</b
+              ><span
+                ><strong>Vermelho</strong
+                ><small>Reversão que libera repulsão.</small></span
+              ></button
+            ><button class="tech" data-tech="purple" role="tab">
+              <b>03</b
+              ><span
+                ><strong>Vazio Roxo</strong
+                ><small>Colisão que apaga tudo no caminho.</small></span
+              >
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="domain" id="dominio">
+        <div class="domain-art" aria-hidden="true"></div>
+        <div class="domain-copy reveal">
+          <p class="eyebrow">EXPANSÃO DE DOMÍNIO</p>
+          <h2>Vazio<br /><span>Imensurável.</span></h2>
+          <p>
+            Informação infinita invade todos os sentidos. O alvo vê tudo, sente
+            tudo — e ainda assim não consegue fazer nada.
+          </p>
+          <button class="button button--light" id="expandDomain">
+            Expandir domínio
+          </button>
+          <p class="domain-status" id="domainStatus" aria-live="polite"></p>
+        </div>
+      </section>
+      <section class="gallery section" id="galeria">
+        <div class="gallery-head reveal">
+          <p class="eyebrow">ARQUIVO DO MAIS FORTE</p>
+          <h2>Momentos de<br /><span>Satoru Gojo.</span></h2>
+        </div>
+        <div class="gallery-grid">
+          <figure class="wide reveal">
+            <img
+              src="assets/roxo-16x9.png"
+              alt="Gojo entre as energias vermelha e azul"
+            />
+            <figcaption>Azul &amp; Vermelho</figcaption>
+          </figure>
+          <figure class="reveal">
+            <img
+              src="assets/deboche-16x9.png"
+              alt="Gojo usando óculos escuros"
+            />
+            <figcaption>Confiança absoluta</figcaption>
+          </figure>
+          <figure class="reveal">
+            <img
+              src="assets/satorovazio-16x9.png"
+              alt="Gojo revelando um dos Seis Olhos"
+            />
+            <figcaption>Seis Olhos</figcaption>
+          </figure>
+          <figure class="wide reveal">
+            <img src="assets/satorou-16x9.png" alt="Gojo sob o céu azul" />
+            <figcaption>O despertar</figcaption>
+          </figure>
+          <figure class="reveal">
+            <img
+              src="assets/gojou-16x9.png"
+              alt="Gojo de perfil com a venda branca"
+            />
+            <figcaption>O feiticeiro mais forte</figcaption>
+          </figure>
+          <figure class="reveal">
+            <img
+              src="assets/irrestrito-16x9.png"
+              alt="Gojo cercado por energia vermelha"
+            />
+            <figcaption>Reversão: Vermelho</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="quote section">
+        <blockquote class="reveal">
+          “No céu e na terra,<br /><span>somente eu sou o honrado.”</span>
+        </blockquote>
+        <p class="reveal">— SATORU GOJO</p>
+      </section>
+    </main>
+    <footer>
+      <span>PÁGINA DE FÃ NÃO OFICIAL // JUJUTSU KAISEN</span
+      ><a href="#inicio">VOLTAR AO TOPO ↑</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
